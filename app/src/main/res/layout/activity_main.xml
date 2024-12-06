@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBEFA6"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_medium"
+        android:gravity="center"
+        android:text="@string/quick_bites"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lusitana"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="@string/slogan_name"
+        android:textSize="20sp" />
+
+    <Button
+        style="?android:attr/buttonBarStyle"
+        android:orientation="horizontal"
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#234320"
+        android:clickable="true"
+        android:text="@string/start_btn"
+        android:textColorLink="@color/white"
+        android:textStyle="italic" />
+</LinearLayout>
+

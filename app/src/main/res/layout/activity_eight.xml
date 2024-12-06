@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBEFA6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/align"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jost_medium"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/question_skill"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/beginner_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner_str" />
+
+        <CheckBox
+            android:id="@+id/intermediate_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intermediate_str" />
+
+        <CheckBox
+            android:id="@+id/expert_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expert_str" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#234320"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:text="@string/submit_btn"
+            android:textColorLink="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_btn"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            app:icon="@drawable/baseline_arrow_back_ios_24"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/next_btn"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            app:icon="@drawable/baseline_arrow_forward_ios_24"
+            app:iconTint="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#BBEFA6">
+
+    <TextView
+        android:id="@+id/got_it"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_medium"
+        android:gravity="center"
+        android:text="@string/thank_you"
+        android:padding="15dp"
+        android:textSize="30sp" />
+
+</LinearLayout>
+

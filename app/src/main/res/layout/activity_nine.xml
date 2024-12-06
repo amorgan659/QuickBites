@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBEFA6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/got_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_medium"
+        android:gravity="center"
+        android:text="@string/got_it"
+        android:padding="15dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/enjoy_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_medium"
+        android:gravity="center"
+        android:text="@string/enjoy_it"
+        android:padding="15dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/feel_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_medium"
+        android:gravity="center"
+        android:text="@string/feel_free"
+        android:padding="15dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/simple_next"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#234320"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:text="@string/simple_next"
+        android:layout_margin="10dp"
+        android:textColorLink="@color/white" />
+
+</LinearLayout>
+

@@ -1,0 +1,46 @@
+<resources>
+    <string name="start_btn">Let\'s Get Started…</string>
+    <string name="true_btn">Yes</string>
+    <string name="false_btn">No</string>
+    <string name="next_btn"> </string>
+    <string name="back_btn"> </string>
+    <string name="submit_btn">Submit</string>
+    <string name="simple_next">Next</string>
+    <string name="preference_btn">Back to Preferences</string>
+    <string name="view_recipe">View Recipe</string>
+
+    <string name="app_name">Final</string>
+    <string name="quick_bites">QuickBites</string>
+    <string name="slogan_name">Cooking Made Easy</string>
+
+    <string name="enter_here">Enter Here</string>
+
+    <string name="breakfast_str">Breakfast</string>
+    <string name="lunch_str">Lunch</string>
+    <string name="dinner_str">Dinner</string>
+    <string name="dessert_str">Dessert</string>
+    <string name="snack_str">Snacks</string>
+
+    <string name="beginner_str">Beginner</string>
+    <string name="intermediate_str">Intermediate</string>
+    <string name="expert_str">Expert</string>
+
+    <string name="got_it">Got it!</string>
+    <string name="enjoy_it">We hope you enjoy these personalized recipes!</string>
+    <string name="feel_free">Feel free to change your preferences at any point!</string>
+
+    <string name="gluten_free">Thai Turkey Meatballs with Coconut Curry Sauce</string>
+    <string name="asian_food">Lazy Wonton Soup</string>
+    <string name="keto_diet">Cauliflower Fried Rice</string>
+    <string name="sweet_treat">Sweet Penne and Almond Milk Soup</string>
+
+    <string name="thank_you">Thank You For Visiting!</string>
+
+    <string name="question_vegan">Are you vegan?</string>
+    <string name="question_veggie">Are you vegetarian?</string>
+    <string name="question_gluten">Are you gluten free?</string>
+    <string name="question_keto">Are you on a keto diet?</string>
+    <string name="question_prefer">What type of cuisine would you prefer? (Italian, Mexican, Asian, etc.)</string>
+    <string name="question_time">What kind of meals are you looking for?</string>
+    <string name="question_skill">What is your skill level in the kitchen?</string>
+</resources>
